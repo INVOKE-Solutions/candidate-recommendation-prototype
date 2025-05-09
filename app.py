@@ -28,7 +28,7 @@ hide_streamlit_style = """
 
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-_left, _mid_left, middle, _mid_right, _right = st.columns([0.1, 0.1, 0.1, 0.1, 0.1])
+_left, middle, _right = st.columns([0.5, 1, 0.5])
 
 with middle:
     st.image("photos/puzzle_match.gif")
