@@ -173,5 +173,8 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-# toml files
-*.toml
+# Streamlit secrets
+secrets.toml
+
+# VS Code settings
+*.vscode

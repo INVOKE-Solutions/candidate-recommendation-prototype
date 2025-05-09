@@ -1,4 +1,3 @@
-from openai import OpenAI
 import streamlit as st
 from utils.auth import authenticate_user
 from utils.candidate_evaluation import evaluate_candidate
@@ -77,5 +76,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-    
