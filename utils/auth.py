@@ -4,7 +4,7 @@ def authenticate_user():
     """Simple authentication using Streamlit secrets"""
     
     if "authenticated" not in st.session_state:
-        st.session_state.authenticated = False
+        st.session_state.authenticated = None
     
     if not st.session_state.authenticated:
         password = st.text_input("Enter Password", type="password")
