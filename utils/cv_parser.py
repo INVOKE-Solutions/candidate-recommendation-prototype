@@ -1,5 +1,4 @@
 import streamlit as st
-from flask import jsonify
 from pypdf import PdfReader
 from openai import OpenAI
 import io
