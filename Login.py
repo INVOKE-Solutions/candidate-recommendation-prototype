@@ -43,11 +43,14 @@ def main():
     st.write("""
     ## How to use this app:
     1. **Login**: Use your credentials to log in.
-    2. **Upload CV**: Go to the CV Parser page and upload a candidate's resume (in pdf format).
-    3. **Job Matching**: Go to the Job Matching page and paste the job description.
-    4. **Evaluate**: Click on the "Evaluate Candidate" button to get the evaluation result. You may choose a different model from the dropdown.
-    5. **View Results**: The evaluation result will be displayed in the text area.
-    6. **Logout**: Use the logout button to exit the app.
+    2. **Upload CV**: Go to the CV Parser page and upload a candidate's resume (in pdf format). Insert a custom prompt if needed.
+    3. **Parse CV**: Click on the "Parse CV" button to extract the candidate's information. The parsed result will be displayed in a text area.
+    4. **Job Matching**: Go to the Job Matching page and paste a job description.
+    5. **Custom Prompt**: Optionally, insert a custom prompt for the evaluation.
+    6. **Select Model**: Choose an LLM model from the dropdown menu.
+    7. **Evaluate**: Click on the "Evaluate Candidate" button to get the evaluation result.
+    8. **View Results**: The evaluation result will be displayed in the text area.
+    9. **Logout**: Use the logout button to exit the app.
              """) 
 
 if __name__ == "__main__":
