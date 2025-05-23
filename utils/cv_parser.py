@@ -41,8 +41,6 @@ def format_text(parsed_text: str, prompt_text: Optional[str] = None) -> str:
                     
                     CV text:
                     {parsed_text}
-
-                    Please ensure to format the output in JSON format. Do not include any additional text or explanations.
     """
     else:
         # Use the provided prompt text
@@ -59,7 +57,7 @@ def format_text(parsed_text: str, prompt_text: Optional[str] = None) -> str:
         input=[
             {
                 "role": "system", 
-                "content": "You are a sophisticated CV parsing AI tasked to parse a candidate's CV and extract the relevant information"
+                "content": "You are a sophisticated CV parsing AI tasked to parse a candidate's CV and extract the relevant information. Please ensure to format the output in JSON format. Do not include any additional text or explanations."
             },
             {
                 "role": "user", 
